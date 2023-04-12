@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section id="home">
+    <div class="container">
+        <h1>Home</h1>
+        <p>Welcome to my portfolio website. Here you can find information about my work, services, portfolio, blog, and contact information. Feel free to explore!</p>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h1>About</h1>
+        <p>I am a passionate web developer with over 5 years of experience in developing responsive and user-friendly websites. I have expertise in HTML, CSS, JavaScript, PHP, and WordPress.</p>
+    </div>
+</section>
+
+<section id="services">
+    <div class="container">
+        <h1>Services</h1>
+        <p>I offer the following services:</p>
+        <ul>
+            <li>Website design and development</li>
+            <li>WordPress theme customization</li>
+            <li>Website maintenance and support</li>
+            <li>Search engine optimization (SEO)</li>
+            <li>Website hosting and domain registration</li>
+        </ul>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="container">
+        <h1>Portfolio</h1>
+        <p>Here are some of my recent projects:</p>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+
+            </div>
+            <div class="col-md-4">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+            </div>
+            <div class="col-md-4">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blog">
+    <div class="container">
+        <h1>Blog</h1>
+        <p>Check out my latest blog posts:</p>
+        <ul>
+            <li><a href="#">Post 1</a></li>
+            <li><a href="#">Post 2</a></li>
+            <li><a href="#">Post 3</a></li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h1>Contact</h1>
+        <p>Get in touch with me:</p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>Copyright © 2023 My Portfolio</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
